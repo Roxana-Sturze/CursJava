@@ -7,6 +7,7 @@ public class Tester {
 	String nume;
 	int varsta; 
 	int ratePerHour = 1;
+	String seniority;
 	
 	
 	//constructori
@@ -19,11 +20,12 @@ public class Tester {
 		
 	}
 	
-	public Tester(int ratePerHour, int varsta, String nume) {
+	public Tester(int ratePerHour, int varsta, String nume, String seniority) {
 		
 		this.ratePerHour = ratePerHour;
 		this.varsta = varsta;
 		this.nume = nume;
+		this.seniority = seniority;
 	}
 	
 	//metode
