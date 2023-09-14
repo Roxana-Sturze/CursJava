@@ -11,6 +11,7 @@ public class AgeEvaluator {
 		System.out.println("Please enter your age: ");
 		Scanner scan = new Scanner(System.in);
 		age =   scan.nextInt();
+		scan.close();
 		return age;
 		
 	}
@@ -18,11 +19,15 @@ public class AgeEvaluator {
 	
 	public String checkAge(int age) {
 		
-		if( age < 18) {
+		if (age < 0 ){
+			
+			return "Please enter a valid age!";
+			
+		}else if( age < 18) {
 			
 			return "You're underage!";
 			
-		}else if (age >= 18 && age <= 65 ) {
+		}else if (age <= 65 ) {
 			
 			return "You're an adult!" ;
 			
@@ -30,7 +35,7 @@ public class AgeEvaluator {
 			
 			return "You're old!";
 			
-		}
 		
+		}
 	}
 }

@@ -16,7 +16,7 @@ public class VariableScope {
 	
 	public void afiseazaMesaj(int mesaj) {
 		
-		System.out.println(nume + prenume);
+		//System.out.println(nume + prenume);
 		
 	}
 	

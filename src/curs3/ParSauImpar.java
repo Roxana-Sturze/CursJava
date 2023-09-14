@@ -17,6 +17,7 @@ public class ParSauImpar {
 		System.out.println("Please enter a number: ");
 		Scanner scan = new Scanner(System.in);
 		number = scan.nextInt();
+		scan.close();
 		
 	}
 	
@@ -26,6 +27,7 @@ public class ParSauImpar {
 		System.out.println("Please enter a number: ");
 		Scanner scan = new Scanner(System.in);
 		int number = scan.nextInt();
+		scan.close();
 		return number;
 		
 	}

@@ -11,6 +11,7 @@ public class TestScore {
 		System.out.println("Please enter your score: ");
 		Scanner scan = new Scanner(System.in);
 		score =   scan.nextInt();
+		scan.close();
 		return score;
 		
 	}

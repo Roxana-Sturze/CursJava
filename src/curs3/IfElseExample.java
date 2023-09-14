@@ -29,6 +29,7 @@ public class IfElseExample {
 		inputUsername = scan.next();
 		System.out.println("Te rog introdu o parola: ");
 		inputPassword = scan.nextInt();
+		scan.close();
 
 		// --> && --> operator AND
 		// --> || --> operatorul OR
