@@ -32,11 +32,20 @@ public class GradeCalculator {
 		 * 
 		 * grade = "S"; }
 		 * 
-		 * if (grade.equals("FB")) { System.out.println("You got: FoarteBine"); }else
-		 * if(grade.endsWith("B")) { System.out.println("You got: Bine"); } else {
-		 * System.out.println("You got: Suficient"); }
+		 * if (grade.equals("FB")) { 
+		 * 
+		 * System.out.println("You got: FoarteBine"); 
+		 * 
+		 * }else if (grade.equals("B")) { 
+		 * 
+		 * System.out.println("You got: Bine"); } 
+		 * 
+		 * else {
+		 * 
+		 * System.out.println("You got: Suficient"); 
+		 * 
+		 * }
 		 */
-		
 		
 		grade = (score>=90)? "FoarteBine" : (score >=80)? "Bine": "Suficient";
 		System.out.println("You got: " + grade);
