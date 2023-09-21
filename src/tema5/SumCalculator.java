@@ -14,7 +14,7 @@ public class SumCalculator {
 		
 		for(int i=1; i<=10; i++) {
 			
-			System.out.println(" Please enter a number " + i +": ");
+			System.out.println(" Please enter number " + i +": ");
 			number = scan.nextInt();
 			
 			sum += number;

@@ -3,7 +3,7 @@ package tema4;
 
 public class CommissionCalculator {
 	
-	public int commission;
+	public int commission = 0;
 	public int sales = 3500;
 	
 	public void calculateCommission() {
@@ -11,10 +11,6 @@ public class CommissionCalculator {
 		if (sales  > 2500) {
 		  
 		commission = sales * 5/100;
-		  
-		}else {
-		  
-		commission = 0; 
 		  
 		}
 		

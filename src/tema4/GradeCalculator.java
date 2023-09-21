@@ -17,7 +17,7 @@ public class GradeCalculator {
 	public void calculateGrade() {
 		
 		enterScore();
-		String grade;
+		
 		
 		/*
 		 * if (score >= 90) {
@@ -47,8 +47,10 @@ public class GradeCalculator {
 		 * }
 		 */
 		
-		grade = (score>=90)? "FoarteBine" : (score >=80)? "Bine": "Suficient";
-		System.out.println("You got: " + grade);
+		String grade = (score >= 90)? "FB":(score >= 80)? "B": "S";
+
+		System.out.println("You got: " + (grade.equals("FB")?"Foarte Bine.":(grade.equals("B"))?"Bine.":"Suficient."));
+		
 		
 		
 	}

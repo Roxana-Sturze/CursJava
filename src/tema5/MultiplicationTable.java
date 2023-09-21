@@ -18,11 +18,9 @@ public class MultiplicationTable {
 		
 		askTheUserForANumber();
 		
-		int product;
-		
 		for (int i= 1; i <=10; i++) {
-			product = number*i;
-			System.out.println(number + " * " + i + " = " + product);
+			
+			System.out.println(number + " * " + i + " = " + number*i);
 			
 		}
 		
