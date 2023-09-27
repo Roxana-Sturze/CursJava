@@ -50,9 +50,12 @@ public class FindIndexOfElement {
 		int counter = 0;
 		
 		while (counter < numbers.length ) {
+			
 			if(numbers[counter] == element) {
+				
 				System.out.println("Index pentru " + element + " este "+ counter);
 			}
+			
 			counter++;
 			
 		}
