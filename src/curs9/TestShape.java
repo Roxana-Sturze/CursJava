@@ -6,10 +6,12 @@ public class TestShape {
 
 		Shape shape = new Shape();
 		shape.draw();
+		
 		System.out.println("---------------------------------");
 		
 		Cerc cerc = new Cerc();
 		cerc.draw();
+		
 		System.out.println("---------------------------------");
 		
 		Patrat patrat = new Patrat();
