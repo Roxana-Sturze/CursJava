@@ -12,7 +12,9 @@ public class FindDuplicatesInArray {
 		String[] names = {"Ion", "Ion", "Oana", "Oana",  "Maria", "Ion", "Oana", "Bob"};
 		
 		for(int i=0; i<names.length; i++) {
+			
 			for(int j= i+1; j<names.length; j++) {
+				
 				if(names[i].equals(names[j])) {
 					//System.out.println("Nume duplicat " + names[i]);
 					set.add(names[i]);
