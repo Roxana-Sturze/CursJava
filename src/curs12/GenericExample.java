@@ -9,7 +9,9 @@ public class GenericExample {
 		printDetails(20.23);
 		printDetails(false);
 		printDetails('x');
-		printArguments( true, 1, "text", 'd');
+		printArguments( true, 1, "text", 'd', 55.99);
+		printArguments( "text");
+		
 
 	}
 
